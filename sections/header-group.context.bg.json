@@ -1,0 +1,35 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "bg"
+  },
+  "sections": {
+    "announcement-bar": {
+      "disabled": false,
+      "settings": {
+        "color_scheme": "scheme-3"
+      },
+      "blocks": {
+        "announcement-bar-0": {
+          "settings": {
+            "text": "AMARO VISION"
+          }
+        }
+      }
+    },
+    "header": {
+      "disabled": false,
+      "settings": {
+        "sticky_header_type": "on-scroll-up",
+        "mobile_logo_position": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "enable_customer_avatar": false,
+        "enable_language_selector": false,
+        "enable_country_selector": false
+      },
+      "blocks": {
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "bg"
+  },
+  "sections": {
+    "featured_collection": {
+      "settings": {
+        "image_ratio": "portrait",
+        "image_shape": "default"
+      },
+      "blocks": {
+      }
+    }
+  }
+}
