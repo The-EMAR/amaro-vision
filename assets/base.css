@@ -3566,3 +3566,29 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+/* Custom CSS */
+
+.price__badge-sale {
+  border-bottom-left-radius: 0rem;
+  margin-top: -1.5rem;
+  margin-left: -3rem;
+}
+
+.price--on-sale .price__sale {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: left !important;
+}
+
+.card--media .card__inner .card__content {
+  padding: 0 !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+ .animate--fixed > img {
+  margin-top: -11rem;
+ } 
+}
