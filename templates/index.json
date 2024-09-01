@@ -203,46 +203,42 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_aKhCbH": {
-      "type": "rich-text",
+    "collage_xyYXMB": {
+      "type": "collage",
       "blocks": {
-        "heading_gyRh6g": {
-          "type": "heading",
+        "image_KTXiEy": {
+          "type": "image",
           "settings": {
-            "heading": "Още от Инстаграм",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/blur-black-front-city-1.png"
           }
         },
-        "text_Xq8qqM": {
-          "type": "text",
+        "image_WD8RAU": {
+          "type": "image",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/blur-black-front-moto-1.png"
           }
         },
-        "button_DDG4Ya": {
-          "type": "button",
+        "image_KYLWjm": {
+          "type": "image",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/a-photo-of-a-stylish-black-t-shirt-featuring-the-m-eCXc3e35ThOTwHsGk3RBfg-CxqwETwPSeiznDlZmkNSBA.png"
           }
         }
       },
       "block_order": [
-        "heading_gyRh6g",
-        "text_Xq8qqM",
-        "button_DDG4Ya"
+        "image_KTXiEy",
+        "image_WD8RAU",
+        "image_KYLWjm"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -253,6 +249,6 @@
     "featured_collection_iGkqJ8",
     "multicolumn_dgqW4E",
     "contact_form_PtWB84",
-    "rich_text_aKhCbH"
+    "collage_xyYXMB"
   ]
 }

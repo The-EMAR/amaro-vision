@@ -61,6 +61,7 @@
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             placeholder="{{ 'templates.contact.form.name' | t }}"
+            required
           >
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
         </div>
@@ -97,7 +98,7 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="field">
+      <div class="field hidden">
         <input
           type="tel"
           id="ContactForm-phone"
@@ -110,6 +111,7 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+
       <div class="field">
         <textarea
           rows="10"
@@ -117,6 +119,7 @@
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
+          required
         >
           {{- form.body -}}
         </textarea>
@@ -124,9 +127,15 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
+
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
+
+          <i class="fa-regular fa-paper-plane"
+          style="margin-left: .8rem;"
+          >
+          </i>
         </button>
       </div>
     {%- endform -%}

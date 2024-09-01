@@ -3570,9 +3570,17 @@ details-disclosure > details {
 
 /* Custom CSS */
 
+.badge {
+  border-radius: 4rem !important;
+  border-bottom-right-radius: 0 !important;
+  padding: 0.4rem .8rem 0.4rem .8rem !important;
+}
+
 .price__badge-sale {
-  border-bottom-left-radius: 0rem;
-  margin-top: -1.5rem;
+  border-radius: 4rem;
+  border-bottom-left-radius: 0rem !important;
+  border-bottom-right-radius: 4rem !important;
+  margin-top: -.9rem;
   margin-left: -3rem;
 }
 
@@ -3583,7 +3591,7 @@ details-disclosure > details {
 }
 
 .card--media .card__inner .card__content {
-  padding: 0 !important;
+  /* padding: 0 !important; */
 }
 
 /* Mobile */
