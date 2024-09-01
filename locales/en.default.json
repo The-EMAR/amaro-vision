@@ -28,7 +28,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Продължете да пазарувате",
     "pagination": {
       "label": "Pagination",
       "page": "Page {{ number }}",
@@ -106,7 +106,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Добави в количка",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
@@ -174,7 +174,7 @@
       "view_full_details": "View full details",
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
-      "taxes_included": "Taxes included.",
+      "taxes_included": "Включени данъци.",
       "duties_included": "Duties included.",
       "duties_and_taxes_included": "Duties and taxes included.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
@@ -284,17 +284,17 @@
       "title": "Your cart",
       "caption": "Cart items",
       "remove_title": "Remove {{ title }}",
-      "estimated_total": "Estimated total",
-      "new_estimated_total": "New estimated total",
+      "estimated_total": "Очаквано общо",
+      "new_estimated_total": "Нова прогнозна обща сума",
       "note": "Order special instructions",
-      "checkout": "Check out",
+      "checkout": "Завърши количката",
       "empty": "Your cart is empty",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Duties and taxes included. Discounts and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Duties and taxes included. Discounts and shipping calculated at checkout.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Taxes included. Discounts and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout.",
-      "taxes_included_shipping_at_checkout_without_policy": "Taxes included. Discounts and shipping calculated at checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Включени мита и данъци. Отстъпките и <a href=\"{{ link }}\">доставката<\/a> се изчисляват при плащане.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Включени мита и данъци. Отстъпките и доставката се изчисляват при плащане.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Включени данъци. Отстъпките и <a href=\"{{ link }}\">доставката<\/a> се изчисляват при плащане.",
+      "taxes_included_shipping_at_checkout_without_policy": "Включени данъци. Отстъпките и доставката се изчисляват при плащане.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Duties included. Taxes, discounts and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Duties included. Taxes, discounts and shipping calculated at checkout.",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxes, discounts and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout.",
@@ -309,7 +309,7 @@
       "update": "Update",
       "login": {
         "title": "Have an account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to check out faster."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Влезте<\/a>, за да платите по-бързо."
       }
     },
     "footer": {
@@ -523,6 +523,25 @@
       "max_characters": "{{ max_chars }} characters max",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "thank_you": {
+        "return_to_store_link_label": "Продължете да пазарувате"
+      },
+      "throttle": {
+        "inventory": {
+          "sold_out": {
+            "storefront_body": "Върнете се в магазина, за да продължите да пазарувате"
+          }
+        }
+      },
+      "contact": {
+        "contact_method_title": "Контакт",
+        "email_or_phone_placeholder": "Имейл",
+        "email_or_phone_label": "Имейл"
+      }
     }
   }
 }
