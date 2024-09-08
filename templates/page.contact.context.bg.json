@@ -1,0 +1,23 @@
+{
+  "parent": "page.contact.json",
+  "context": {
+    "market": "bg"
+  },
+  "sections": {
+    "form": {
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 52
+      },
+      "blocks": {
+      }
+    },
+    "main": {
+      "settings": {
+        "padding_bottom": 0
+      },
+      "blocks": {
+      }
+    }
+  }
+}

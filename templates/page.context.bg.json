@@ -1,13 +1,12 @@
 {
-  "parent": "collection.json",
+  "parent": "page.json",
   "context": {
     "market": "bg"
   },
   "sections": {
-    "product-grid": {
+    "main": {
       "settings": {
-        "padding_top": 0,
-        "image_ratio": "portrait"
+        "padding_bottom": 52
       },
       "blocks": {
       }

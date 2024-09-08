@@ -9,7 +9,9 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "cover",
-        "image_zoom": "none"
+        "image_zoom": "none",
+        "padding_top": 24,
+        "padding_bottom": 32
       },
       "blocks": {
         "icon_with_text_VVwdj": {
@@ -17,7 +19,7 @@
           "disabled": false,
           "settings": {
             "layout": "vertical",
-            "header-439cddf1e2038955f4aa9dae6668cf9d": null,
+            "header-74858c796f25f72bd227a7ff3d1be8a3": null,
             "icon_1": "star",
             "image_1": null,
             "heading_1": "Европейски стандарти за качество",
@@ -33,9 +35,9 @@
           "type": "collapsible_tab",
           "disabled": false,
           "settings": {
-            "heading": "100% Памук",
+            "heading": "100% Органичен Памук",
             "icon": "check_mark",
-            "content": "<p>100% Памук<\/p>",
+            "content": "<p><strong>Stanley and Stella<\/strong> <strong>100% органичен памук.<\/strong> Безкомпромисно високо качество и устойчивост от екологично чисти материали.<\/p>",
             "page": ""
           }
         },

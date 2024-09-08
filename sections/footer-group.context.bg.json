@@ -4,5 +4,26 @@
     "market": "bg"
   },
   "sections": {
-  }
+    "footer": {
+      "settings": {
+      },
+      "blocks": {
+        "text_wpez8": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "heading": "Връзка с нас:",
+            "subtext": "<p>Имейл: <a href=\"mailto:amaro.vision.dm@gmail.com\" title=\"mailto:amaro.vision.dm@gmail.com\">amaro.vision.dm@gmail.com<\/a><\/p><p>Телефон: <a href=\"tel:+359894937780\" title=\"tel:+359894937780\">+359894937780<\/a><\/p><p>Bulgaria 🇧🇬<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wpez8"
+      ]
+    }
+  },
+  "order": [
+    "newsletter_NjLFYH",
+    "footer"
+  ]
 }
