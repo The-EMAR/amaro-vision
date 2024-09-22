@@ -6,7 +6,7 @@
   "sections": {
     "main": {
       "settings": {
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "image_zoom": "none",
@@ -19,7 +19,7 @@
           "disabled": false,
           "settings": {
             "layout": "vertical",
-            "header-74858c796f25f72bd227a7ff3d1be8a3": null,
+            "header-8daebcd715780f1249ed684104427005": null,
             "icon_1": "star",
             "image_1": null,
             "heading_1": "Европейски стандарти за качество",
